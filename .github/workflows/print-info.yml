@@ -1,0 +1,15 @@
+name: Print Name and Date
+
+on:
+  push
+
+jobs:
+  print-details:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Name
+        run: echo "My name is Sri Lakshmi"
+
+      - name: Print Date
+        run: date
