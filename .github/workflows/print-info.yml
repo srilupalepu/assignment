@@ -11,5 +11,9 @@ jobs:
       - name: Print Name
         run: echo "My name is Sri Lakshmi"
 
+
+      - name: Run Docker Version
+        run: docker --version
+
       - name: Print Date
         run: date
