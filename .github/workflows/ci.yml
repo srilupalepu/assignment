@@ -21,4 +21,5 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - run: echo "Build Successful"
+      - name: Run Lint
+        run: npm run lint
